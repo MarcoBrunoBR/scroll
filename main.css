@@ -1,0 +1,27 @@
+body {
+  padding-top: 100px;
+}
+
+.wrap-menu {
+  position: fixed;
+  top: 0;
+  background-color: red;
+  color: #FFF;
+  width: 100%;
+  opacity: .5
+}
+
+.menu-item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33.333%;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.menu-item_isActive {
+  background-color: blue;
+}
